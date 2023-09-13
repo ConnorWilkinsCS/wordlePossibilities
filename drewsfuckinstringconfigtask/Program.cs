@@ -32,7 +32,7 @@ namespace drewsfuckinstringconfigtask
                 rulesetArr[i] = ruleset[i];
             }
             //loop for each element/2 cuz letternum combo
-            for (int i = 1; i <= ruleset.Length / 2; i = i + 1)
+            for (int i = 1; i <= ruleset.Length / 2; i = i + 1) //TODO the conditionals aren't being entered but it should work otherwise
             {
                 if (rulesetArr[i] == 0) //if 0, its grey
                 {
